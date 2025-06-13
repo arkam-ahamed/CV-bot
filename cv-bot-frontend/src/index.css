@@ -1,0 +1,14 @@
+/* src/index.css */
+
+/* Tailwind CSS directives - these are crucial for Tailwind to work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import the Inter font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Apply the Inter font to the entire body of your application */
+body {
+	font-family: "Inter", sans-serif;
+}
